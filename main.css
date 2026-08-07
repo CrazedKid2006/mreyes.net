@@ -1,0 +1,215 @@
+
+
+/*
+
+Purple:
+1 #6e417a
+2 #b77bc7
+3 #daa0eb
+
+Green:
+1 #4e996c
+2 #65bf89
+3 #7fd4a1
+4 #b0ddc2
+
+Backgrounds:
+GL: #c4ebd4
+PL: 
+
+*/
+/* Font section */
+.astloch-regular {
+  font-family: "Astloch", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.astloch-bold {
+  font-family: "Astloch", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.cormorant-garamond-bold {
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+/* Background section */
+html, body {
+    height: 100%;
+    overflow: hidden;
+
+
+}
+
+body {
+    background-image: url("assets/images/website/silhouette-catholic-cross-sunrise1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+    margin-top: 60px;
+}
+
+
+
+/* NavBar section */
+.main-nav-bar {
+    position: fixed;
+    list-style-type: none;
+    background-color: #000000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 48px;
+    z-index: 1000;
+}
+
+.main-nav-bar-link {
+    height: 48px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 37px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    background-color: #000000;
+    color: #efbf04;
+}
+
+.main-nav-bar-link:hover {
+    background-color: #333333;
+}
+
+.main-nav-bar-link-active {
+    background-color: #efbf04;
+    color: #000000;
+}
+
+.nav-bar-left {
+    float: left;
+}
+
+.nav-bar-right {
+    float: right;
+}
+
+
+
+/* Isle section */
+.isle-container {
+    display: flex;
+    gap: 1%;
+    width: 100%;
+    justify-content: center;
+    height: calc(100% - 60px);
+}
+
+.isle {
+    flex: 1;
+    width: 48.5%;
+    background-color: #00000080;
+    border: 3px solid #efbf04cc;
+    border-radius: 5px;
+    color: #efbf04;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.left-isle {
+    overflow-y: auto;
+    height: calc(100% - 20px);
+
+
+}
+
+.right-isle {
+    position: sticky;
+    text-align: center;
+    height: fit-content;
+}
+
+
+
+/* Random Bible quote section */
+.God_s-section {
+    /*
+    background-color: #00000080;
+    border: 3px solid #efbf04cc;
+    border-radius: 5px;
+    color: #efbf04;
+    position: fixed;
+    */
+}
+
+.deus-vult {
+    font-size: 50px;
+}
+
+.random-bible-quote {
+    font-size: 25px;
+}
+
+
+
+/* Page headers, paragraphs, etc. */
+h1 {
+    font-size: 37px;
+}
+
+p {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+hr {
+    color: #bf8f04;
+}
+
+img {
+    display: block;
+}
+
+.header-link {
+    color: #bf8f04;
+}
+
+
+
+/* Slideshow */
+.slideshow {
+    /*background-color: #00000080;*/
+    border: 3px solid #bf8f04;
+    border-radius: 5px;
+    width: 80%;
+    color: #000000;
+}
+
+.slide {
+    width: 100%;
+    font-size: 37px;
+    font-weight: 700;
+}
+
+.slide-img {
+    width: 100%;
+}
+
+
+
+/* Profile picture */
+.pfp {
+    border-radius: 50%;
+}
+
+.nav-pfp {
+    padding: 4px;
+    width: 40px;
+    height: 40px;
+}
