@@ -49,6 +49,7 @@ html, body {
 }
 
 body {
+    background-color: #000000;
     background-image: url("assets/images/website/silhouette-catholic-cross-sunrise1.jpg");
     background-attachment: fixed;
     background-size: cover;
