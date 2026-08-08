@@ -1,0 +1,22 @@
+{
+  "name": "mreyes.net",
+  "version": "1.0.0",
+  "description": "This is the code behind my personal keyboard-built website.",
+  "main": ".eleventy.js",
+  "scripts": {
+    "build": "npm @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrazedKid2006/mreyes.net.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/CrazedKid2006/mreyes.net/issues"
+  },
+  "homepage": "https://github.com/CrazedKid2006/mreyes.net#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6"
+  }
+}
