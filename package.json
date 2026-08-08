@@ -4,7 +4,7 @@
   "description": "This is the code behind my personal keyboard-built website.",
   "main": ".eleventy.js",
   "scripts": {
-    "build": "npm @11ty/eleventy"
+    "build": "npx @11ty/eleventy"
   },
   "repository": {
     "type": "git",
