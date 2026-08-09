@@ -309,6 +309,19 @@ img {
 
 
 
+/* Connections */
+.connections-container {
+    width: 75%;
+    aspect-ratio: 4/3;
+}
+
+.connection {
+    width: 40px;
+    aspect-ratio: 16/4;
+}
+
+
+
 /* Under construction pieces */
 .under-construction-message {
     position: fixed;
