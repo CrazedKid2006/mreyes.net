@@ -2,9 +2,11 @@
 layout: main.html
 title: Project Blog
 ---
-{% for post in collections.project-post %}
 <div class="project-posts-listing">
-    <h2 ><a class="header-link" href="{{ post.url }}">{{ post.data.title }}</a></h2>
-    <p>{{ post.content }}</p>
+{% for post in collections.projects %}
+<div class="project-post">
+    <img class="slide slide-img" src="{{ post.data.thumbnail }}" alt="There's supposed to be a thumbnail here">
+    <h2><a class="header-link" href="{{ post.url }}">{{ post.data.title }}</a></h2>
 </div>
 {% endfor %}
+</div>

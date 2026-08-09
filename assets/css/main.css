@@ -223,14 +223,34 @@ img {
 
 /* Project posts */
 .project-posts-listing {
+    height: fit-content;
     border: 3px solid #bf8f04;
-    width: 48%;
+    margin-left: 2%;
+    margin-right: 2%;
+    overflow-y: auto;
+    height: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px
+}
+
+.project-post {
+    border: 3px solid #bf8f04;
+    height: fit-content;
+    width: 100%;
+    text-align: center;
 }
 
 
 
 /* PDF viewing */
-.pdf-viewer {
+.pdf-viewer-resume {
+    width: 70%;
+    aspect-ratio: 3 / 4;
+}
+
+.pdf-viewer-cert {
     width: 70%;
     aspect-ratio: 4 / 3;
 }
