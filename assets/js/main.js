@@ -22,3 +22,13 @@ function GenerateBibleQuote() {
   x.textContent = '"For the law was given through Moses; grace and truth came through Jesus Christ" -John 1:17';
 }
 
+
+
+// OnClick functions
+function Redirect(url) {
+  location.href = url;
+}
+
+function ClickBack() {
+  Redirect("../");
+}

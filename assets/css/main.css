@@ -126,6 +126,7 @@ body {
 .left-isle {
     overflow-y: auto;
     height: calc(100% - 20px);
+    justify-content: center;
 
 
 }
@@ -185,6 +186,15 @@ img {
     font-size: 45px;
 }
 
+.page-title-housing {
+    display: flex;
+}
+.title-piece {
+    flex: 1;
+    width: fit-content;
+    float: right;
+}
+
 
 
 /* Slideshow */
@@ -219,27 +229,55 @@ img {
     height: 40px;
 }
 
+.back-pfp {
+    flex: 1;
+    height: 70px;
+    width: 70px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 37px;
+    text-align: center;
+
+    background-color: #000000;
+    color: #efbf04;
+    aspect-ratio: 1 / 1;
+    float: left;
+}
+
+.back-pfp:hover {
+    background-color: #333333;
+    cursor: pointer;
+}
+
+/*
+.back-pfp:target {
+    background-color: #efbf04;
+}
+*/
+
 
 
 /* Project posts */
 .project-posts-listing {
-    height: fit-content;
+    height: calc(100%-100px);
+    overflow-y: auto;
     border: 3px solid #bf8f04;
     margin-left: 2%;
     margin-right: 2%;
-    overflow-y: auto;
-    height: 80%;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     gap: 10px;
-    padding: 10px
 }
 
 .project-post {
+    flex:1;
     border: 3px solid #bf8f04;
-    height: fit-content;
-    width: 100%;
     text-align: center;
+}
+
+.project-post:hover {
+    background-color: #00000080;
+    cursor: pointer;
 }
 
 
