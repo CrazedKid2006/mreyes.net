@@ -181,6 +181,10 @@ img {
     color: #bf8f04;
 }
 
+.page-title {
+    font-size: 45px;
+}
+
 
 
 /* Slideshow */
@@ -225,6 +229,14 @@ img {
 
 
 
+/* PDF viewing */
+.pdf-viewer {
+    width: 70%;
+    aspect-ratio: 4 / 3;
+}
+
+
+
 /* Under construction pieces */
 .under-construction-message {
     position: fixed;
@@ -233,4 +245,6 @@ img {
     bottom: 5px;
     right: 5px;
     text-align: center;
+    background-color: #000000;
+    opacity: 95%;
 }
