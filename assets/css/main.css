@@ -231,17 +231,18 @@ img {
 
 .back-pfp {
     flex: 1;
-    height: 70px;
-    width: 70px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 37px;
-    text-align: center;
-
-    background-color: #000000;
-    color: #efbf04;
+    height: 58px;
     aspect-ratio: 1 / 1;
+    
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    color: #efbf04;
+
     float: left;
+
+    border: 3px solid #efbf04;
 }
 
 .back-pfp:hover {
@@ -266,18 +267,31 @@ img {
     margin-right: 2%;
     display: grid;
     grid-template-columns: auto auto;
-    gap: 10px;
+    justify-content: center;
+    aspect-ratio: 4/3;
 }
 
 .project-post {
     flex:1;
     border: 3px solid #bf8f04;
     text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .project-post:hover {
     background-color: #00000080;
     cursor: pointer;
+}
+
+.post-thumbnail {
+    width: 400px;
+}
+
+.in-post-thumbnail {
+    margin: auto;
 }
 
 

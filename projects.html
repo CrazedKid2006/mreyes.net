@@ -5,7 +5,7 @@ title: Project Blog
 <div class="project-posts-listing">
 {% for post in collections.projects %}
 <div class="project-post" onclick="Redirect(' {{ post.url }} ')">
-    <img class="slide slide-img" src="{{ post.data.thumbnail }}" alt="There's supposed to be a thumbnail here">
+    <img class="post-thumbnail" src="{{ post.data.thumbnail }}" alt="There's supposed to be a thumbnail here">
     <h2>{{ post.data.title }}</h2>
 </div>
 {% endfor %}
