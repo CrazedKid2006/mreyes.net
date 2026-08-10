@@ -172,6 +172,8 @@ p {
 
 hr {
     color: #bf8f04;
+    border-color: #bf8f04;
+    background-color: #bf8f04;
 }
 
 img {
@@ -266,19 +268,20 @@ img {
     margin-left: 2%;
     margin-right: 2%;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     aspect-ratio: 4/3;
 }
 
 .project-post {
-    flex:1;
+    grid:1;
     border: 3px solid #bf8f04;
     text-align: center;
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
+    width: 94%;
 }
 
 .project-post:hover {
@@ -287,7 +290,7 @@ img {
 }
 
 .post-thumbnail {
-    width: 400px;
+    width: 100%;
 }
 
 .in-post-thumbnail {
@@ -338,6 +341,14 @@ img {
     color: #efbf04;
     text-decoration: none;
     font-size: 30px;
+}
+
+
+
+/* Scroll bar customizations */
+.scrolling-section {
+    scrollbar-color: #efbf04 #00000080;
+    scrollbar-width: 1%;
 }
 
 

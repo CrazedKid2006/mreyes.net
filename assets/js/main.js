@@ -32,3 +32,7 @@ function Redirect(url) {
 function ClickBack() {
   Redirect("../");
 }
+
+function Copy2Clipboard() {
+  
+}
