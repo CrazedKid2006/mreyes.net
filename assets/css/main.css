@@ -355,6 +355,14 @@ img {
 
 
 
+/* Version */
+.version {
+    font-size: 35px;
+    color: #efbf04
+}
+
+
+
 /* Under construction pieces */
 .under-construction-message {
     position: fixed;
