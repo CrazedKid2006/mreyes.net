@@ -2,7 +2,7 @@
 layout: main.html
 title: Project Blog
 ---
-<div class="project-posts-listing">
+<div class="project-posts-listing scrolling-section">
 {% for post in collections.projects %}
 <div class="project-post" onclick="Redirect(' {{ post.url }} ')">
     <img class="post-thumbnail" src="{{ post.data.thumbnail }}" alt="There's supposed to be a thumbnail here">

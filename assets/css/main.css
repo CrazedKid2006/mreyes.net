@@ -44,6 +44,8 @@ PL:
 html, body {
     height: 100%;
     overflow: hidden;
+    scrollbar-color: #efbf04 #00000080;
+    scrollbar-width: 1%;
 
 
 }
