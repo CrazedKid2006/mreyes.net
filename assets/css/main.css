@@ -273,6 +273,7 @@ img {
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     aspect-ratio: 4/3;
+    
 }
 
 .project-post {
@@ -284,6 +285,7 @@ img {
     margin-right: 10px;
     margin-bottom: 10px;
     width: 94%;
+    aspect-ratio: 4/3;
 }
 
 .project-post:hover {
@@ -292,11 +294,18 @@ img {
 }
 
 .post-thumbnail {
-    width: 100%;
+    width: calc(100% - 4px);
+    height: 75%;
+    object-fit: cover;
+    border: 2px solid #bf8f04;
+    overflow: hidden;
+    
 }
 
 .in-post-thumbnail {
+    height: 30vh;
     margin: auto;
+    border: 2px solid #efbf04cc;
 }
 
 
@@ -307,7 +316,6 @@ img {
     font-size: 15px;
     background-color: #444444;
     color: #efbf04;
-    text-align: center;
 }
 
 
@@ -359,6 +367,23 @@ img {
 .version {
     font-size: 35px;
     color: #efbf04
+}
+
+
+
+/* Redirect icon links*/
+.icon-link {
+    background-color: #efbf04;
+
+    width: 30px;
+    aspect-ratio: 1/1;
+
+    border: 1px solid #efbf04;
+    border-radius: 50%;
+}
+
+.icon-link:hover {
+    background-color: #FFFFFF;
 }
 
 

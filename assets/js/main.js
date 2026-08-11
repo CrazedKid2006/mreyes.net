@@ -29,6 +29,10 @@ function Redirect(url) {
   location.href = url;
 }
 
+function NewTab(url) {
+  window.open(url, '_blank');
+}
+
 function ClickBack() {
   Redirect("../");
 }
