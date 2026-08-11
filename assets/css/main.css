@@ -311,11 +311,20 @@ img {
 
 
 /* Code snippets */
+.button-code-snippet {
+    width: 80%;
+    font-size: 15px;
+    background-color: #444444;
+    color: #efbf04;
+    text-align: center;
+}
+
 .code-snippet {
     width: 80%;
     font-size: 15px;
     background-color: #444444;
     color: #efbf04;
+    width: calc(100% - 8px);
 }
 
 

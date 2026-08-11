@@ -51,6 +51,6 @@ function GetComMsg() {
   fetch('https://api.github.com/repos/crazedkid2006/mreyes.net/commits?per_page=1')
     .then(res => res.json())
     .then(res => {
-      x.textContent = res[0].commit.message
+      x.textContent = res[0].commit.author.name + " >> " + res[0].commit.author.date + " >> " + res[0].commit.message
     })
 }
